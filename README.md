@@ -16,3 +16,5 @@ In this project, i will explore and build time series forecasting model for meas
 ## Objective
 
 To achieve what i aim for, i used Facebook's prophet to build my model and train it on 9 years of the dataset (2010 - 2019), the testing data will be done on the two remaining years
+
+## Insights
