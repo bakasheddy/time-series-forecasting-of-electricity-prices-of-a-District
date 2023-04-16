@@ -9,7 +9,7 @@ the dataset captures the power consumption of a building for a period of 11 year
 
 Apart from the FullDate column, every other column is of thr float data type, the FullDate column was converted from object(string) to datetime format before exploration
 
-# Aim
+## Aim
 
 In this project, i will explore and build time series forecasting model for measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years.
 
