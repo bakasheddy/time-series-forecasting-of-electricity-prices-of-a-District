@@ -17,4 +17,17 @@ In this project, i will explore and build time series forecasting model for meas
 
 To achieve what i aim for, i used Facebook's prophet to build my model and train it on 9 years of the dataset (2010 - 2019), the testing data will be done on the two remaining years
 
-## Insights
+## Evaluation Metrics:
+The model's performance was evaluated using three metrics: Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), and Root Mean Squared Error (RMSE).
+
+## Evaluation Results:
+The evaluations of the FBProphet model are as follows:
+
+MAE: 70.817
+MAPE: 223.174%
+RMSE: 91.507
+## Analysis:
+Based on the evaluation metrics, the FBProphet model performed moderately well in forecasting the Electric Price of the building. The MAE value of 70.817 indicates that on average, the model's predictions were off by around 71 units. The MAPE value of 223.174% suggests that the model's predictions were, on average, 223% off from the actual sales figures. Finally, the RMSE value of 91.507 indicates that there was a root mean squared error of 92 units in the model's predictions.
+
+Conclusion:
+While the fbprophet model provided a good starting point for the project, the evaluation results show that it may not be accurate enough for reliable predictions.  However, there is still room for improvement. The model's evaluations suggest that it may be overestimating or underestimating the Electric prices. In order to improve the model's accuracy, further exploration and experimentation with different algorithms, models, and parameters is recommended.
