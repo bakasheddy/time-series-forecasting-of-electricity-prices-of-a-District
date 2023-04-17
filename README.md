@@ -27,7 +27,9 @@ The model's performance was evaluated using three metrics: Mean Absolute Error (
 The evaluations of the FBProphet model are as follows:
 
 MAE: 70.817
+
 MAPE: 223.174%
+
 RMSE: 91.507
 ## Analysis:
 Based on the evaluation metrics, the FBProphet model performed moderately well in forecasting the Electric Price of the building. The MAE value of 70.817 indicates that on average, the model's predictions were off by around 71 units. The MAPE value of 223.174% suggests that the model's predictions were, on average, 223% off from the actual sales figures. Finally, the RMSE value of 91.507 indicates that there was a root mean squared error of 92 units in the model's predictions.
